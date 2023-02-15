@@ -1,0 +1,37 @@
+body{
+    height: 10000px;
+}
+h1{
+    text-align: center; 
+    color: red;
+}
+#test{
+    color:darkcyan;
+}
+p{
+    color: green !important;
+}
+.payment{
+    font-style: italic;
+    color: blue;
+}
+.vip{
+    font-weight: 900;
+    color: orange;
+}
+.one li{
+    color: red;
+}
+.two li{
+    color: blue;
+}
+.ttt{
+    color:darkgoldenrod;
+}
+p.ttt{
+    font-style: italic;
+}
+
+div#aaa.bbb.ccc ul#qqq.eee.ttt li.aaa.ttt span#test em.bbb{
+    
+}
