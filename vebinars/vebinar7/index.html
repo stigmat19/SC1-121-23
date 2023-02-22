@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: #e0e0e0;
+            padding-top: 17px;
+            padding-bottom: 17px;
+            text-align: center;
+        }
+
+        .main {
+            background-color: #fdf8e4;
+            padding: 20px 20px 0;
+            overflow: hidden;
+        }
+        .main h3{
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .main-block h3{
+            margin-bottom: 0;
+        }
+
+        .main-block {
+            background-color: #faedbc;
+            height: 50px;
+            margin-bottom: 20px;
+            padding-top: 16px;
+        }
+
+        .main-block-left {
+            float: left;
+            width: 310px;
+        }
+
+        .main-block-right {
+            float: right;
+            width: 310px;
+        }
+
+        .main-block-bottom {
+            margin-top: 20px;
+            clear: both;
+        }
+
+        .sidebar {
+            height: 261px;
+            width: 300px;
+            float: right;
+            background-color: #e1ebcc;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .parent {
+            width: 1000px;
+        }
+        .footer{
+            padding: 20px 0;
+            background-color: #e0e0e0;
+        }
+        .footer h3{
+            height: 50px;
+            width: 210px;
+            margin-left: 20px;
+            margin-right: 20px;
+            background-color: #fafafa;
+            float: left;
+            text-align: center;
+            padding-top: 16px;
+        }
+        .clear{
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="parent">
+        <div class="header">
+            <h3>Шапка страницы</h3>
+        </div>
+        <div class="wrap">
+            <div class="sidebar">
+                <h3>Боковая часть</h3>
+            </div>
+            <div class="main">
+                <h3>Основная часть</h3>
+
+                <div class="main-block main-block-left">
+                    <h3>Еще 1</h3>
+                </div>
+                <div class="main-block main-block-right">
+                    <h3>Еще 2</h3>
+                </div>
+                <div class="main-block main-block-bottom">
+                    <h3>Еще 3</h3>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="footer">
+                <h3>Шапка страницы</h3>
+            
+                <h3>Шапка страницы</h3>
+            
+                <h3>Шапка страницы</h3>
+            
+                <h3>Шапка страницы</h3>
+            
+                <div class="clear"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
